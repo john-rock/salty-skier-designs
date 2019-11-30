@@ -17,10 +17,9 @@ const AboutPage = ({ data }, location) => {
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            Clean, minimal, and deeply customisable. London is a theme made for
-            people who appreciate simple lines.
-          </h2>
+          <h3>
+          Our designs are based on what makes us feel alive, the majestic mountains and ocean of New England. Here’s to celebrating the heart of East Coast skiing and coastal living!
+          </h3>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
