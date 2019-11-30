@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'London After Midnight',
-  shortName: 'LAM',
-  description: 'A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery',
-  url: 'https://gatsby-lam.vaporwavy.io', // Domain of your site without prefix!
+  name: 'Salty Skier Designs',
+  shortName: 'SSD',
+  description: 'Hand crafted art on wooden mediums. Made in the U.S.A',
+  url: 'https://saltyskierdesigns.netlify.com/', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Vaporwavy',
+  author: 'John Rock',
   twitter: ''
 }

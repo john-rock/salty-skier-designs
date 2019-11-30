@@ -26,9 +26,9 @@ const Layout = props => {
           </a>
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
-              {/* <li className="nav-home nav-current" role="menuitem">
+              <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Home</Link>
-              </li> */}
+              </li>
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
@@ -48,36 +48,20 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
+                href="https://www.instagram.com/salty_skier_designs/"
+                title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Instagram
               </a>
               <a
-                href="https://twitter.com"
-                title="Twitter"
+                href="/"
+                title="Etsy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
-              </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
-              <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
-                title="GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
+                Etsy
               </a>
             </div>
           </div>
