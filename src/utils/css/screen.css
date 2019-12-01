@@ -69,7 +69,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   padding: 13vw 0;
   max-width: 70%;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .error-head {
@@ -98,6 +98,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .page-head-title {
+  white-space: pre;
   margin: 0;
   font-size: 4.2rem;
   color: var(--color-base);
@@ -265,9 +266,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .nav-burger {
   display: none;
   position: absolute;
-  left: 0;
+  right: 0;
   z-index: 9999;
-  padding: 12px 12px 12px 0;
+  padding: 12px 5px;
 }
 
 @media (max-width: 850px) {
@@ -329,6 +330,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     z-index: auto;
     display: flex;
     justify-content: center;
+  }
+  
+  @media (max-width: 500px) {
+    .site-head-center{
+      justify-content: flex-start;
+    }
   }
   .site-head-right {
     order: 3;
@@ -455,7 +462,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .post-card-date {
-  margin-top: 10px;
+  margin-top: auto;
   font-style: italic;
 }
 
@@ -589,7 +596,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin: 4vw 0;
   position: relative;
   width: 75vw;
-  min-width: 100%;
+  max-width: 500px;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   transform: translateX(calc(50vw - 50%));
