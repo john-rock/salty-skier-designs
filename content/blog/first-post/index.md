@@ -1,7 +1,6 @@
 ---
 title: Salty Skier Blog
 date: "2019-11-30"
-tags: [vaporwave,retrowave,future-funk]
 description: This is just a test blog.
 ---
 
