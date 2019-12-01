@@ -20,12 +20,12 @@ const AboutPage = ({ data }, location) => {
           <h3>
           Our designs are based on what makes us feel alive, the majestic mountains and ocean of New England. Here’s to celebrating the heart of East Coast skiing and coastal living!
           </h3>
-          <figure className="kg-card kg-image-card kg-width-full">
+          <figure className="kg-card kg-image-card">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
+            <figcaption>All designs created in Somerville, Massachusetts</figcaption>
           </figure>
           <h3 id="dynamic-styles">Dynamic styles</h3>
           <p>
@@ -62,7 +62,7 @@ const indexQuery = graphql`
       }
     }
     benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
+      relativePath: { eq: "logo.jpg" }
     ) {
       childImageSharp {
         fluid(maxWidth: 1360) {

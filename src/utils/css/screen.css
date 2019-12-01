@@ -776,7 +776,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .page-template .post-content-body h1,
 .page-template .post-content-body h2,
 .page-template .post-content-body h3 {
-  text-align: center;
+  text-align: left;
 }
 
 /* Tag Pages
