@@ -1,6 +1,6 @@
 ---
 title: Jay Peak
-date: "2019-05-03"
+date: "2019-11-24"
 tags: [vermont,tram,ski]
 thumbnail: ./jay-peak.jpg
 description: Jay Peak Resort.

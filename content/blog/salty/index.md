@@ -1,6 +1,6 @@
 ---
 title: Salty Skier Designs
-date: "2015-05-28T22:40:32.169Z"
+date: "2019-11-24"
 description: Welcome to Salty Skier Designs
 thumbnail: ./logo.jpg
 ---
