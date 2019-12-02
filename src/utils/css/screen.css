@@ -589,7 +589,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   max-width: 740px;
   margin: 6rem auto 0;
   padding: 6vw 0;
-  background: rgb(115, 10, 10);
+  background: #273243;
   /* border-radius: 20px;
   box-shadow: 0 0 20px #280303; */
   box-sizing: border-box;
@@ -603,7 +603,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   top:0;
   width:4000px;
   height:100%;
-  background: rgb(115, 10, 10);
+  background: #273243;
   z-index:-1;
   box-shadow: 0 0 20px #280303;
 }

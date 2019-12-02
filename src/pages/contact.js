@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -148,83 +148,51 @@ const ElementsPage = ({ data }, location) => {
               <span className="button disabled">Default</span>
             </li>
           </ul> */}
-          <h2 id="forms">Forms</h2>
+          <h2 id="forms">Contact Us</h2>
+          <p>If you are interested in ordering one of our designs, please fill out the form below and state the design you would like to order. You may also contact us on Instagram and Etsy to place an order.</p>
+          <p>Shortly after submitting the form, an email will be sent confirming your order.</p>
           <form method="post" action="#">
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
                 <input
                   type="text"
-                  name="demo-name"
-                  id="demo-name"
-                  defaultValue
-                  placeholder="Name"
+                  name="first-name"
+                  id="first-name" 
+                  placeholder="First Name"
+                />
+              </div>
+              <div className="col-6 col-12-xsmall">
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name" 
+                  placeholder="Last Name"
                 />
               </div>
               <div className="col-6 col-12-xsmall">
                 <input
                   type="email"
-                  name="demo-email"
-                  id="demo-email"
-                  defaultValue
+                  name="email"
+                  id="email"
                   placeholder="Email"
                 />
               </div>
               {/* Break */}
-              <div className="col-12">
+              {/* <div className="col-12">
                 <select name="demo-category" id="demo-category">
-                  <option value>- Category -</option>
+                  <option value>- Design -</option>
                   <option value={1}>Manufacturing</option>
                   <option value={1}>Shipping</option>
                   <option value={1}>Administration</option>
                   <option value={1}>Human Resources</option>
                 </select>
-              </div>
-              {/* Break */}
-              <div className="col-4 col-12-small">
-                <input
-                  type="radio"
-                  id="demo-priority-low"
-                  name="demo-priority"
-                  defaultChecked
-                />
-                <label htmlFor="demo-priority-low">Low</label>
-              </div>
-              <div className="col-4 col-12-small">
-                <input
-                  type="radio"
-                  id="demo-priority-normal"
-                  name="demo-priority"
-                />
-                <label htmlFor="demo-priority-normal">Normal</label>
-              </div>
-              <div className="col-4 col-12-small">
-                <input
-                  type="radio"
-                  id="demo-priority-high"
-                  name="demo-priority"
-                />
-                <label htmlFor="demo-priority-high">High</label>
-              </div>
-              {/* Break */}
-              <div className="col-6 col-12-small">
-                <input type="checkbox" id="demo-copy" name="demo-copy" />
-                <label htmlFor="demo-copy">Email me a copy</label>
-              </div>
-              <div className="col-6 col-12-small">
-                <input
-                  type="checkbox"
-                  id="demo-human"
-                  name="demo-human"
-                  defaultChecked
-                />
-                <label htmlFor="demo-human">I am a human</label>
-              </div>
+              </div> */}
               {/* Break */}
               <div className="col-12">
                 <textarea
                   name="demo-message"
                   id="demo-message"
-                  placeholder="Enter your message"
+                  placeholder="Enter the design you want here"
                   rows={6}
                   defaultValue={""}
                 />
@@ -239,9 +207,9 @@ const ElementsPage = ({ data }, location) => {
                       className="primary"
                     />
                   </li>
-                  <li>
+                  {/* <li>
                     <input type="reset" defaultValue="Reset" />
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
