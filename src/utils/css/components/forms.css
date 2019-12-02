@@ -27,7 +27,7 @@ input[type="search"],
 input[type="url"],
 select,
 textarea {
-    background: var(--color-bg);
+    background: var(--color-bg-accent);
     border-radius: var(--radius);
     border: none;
     border: solid 1px var(--color-border);

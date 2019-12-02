@@ -30,10 +30,9 @@ const AboutPage = ({ data }, location) => {
             />
             <figcaption>All designs created in Somerville, Massachusetts</figcaption>
           </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+          <h3 id="dynamic-styles">Who We Are</h3>
           <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
+            Use this section to tell a little back story on the company.
           </p>
           <p>
             Both post and page templates are light and minimal, with all the
