@@ -1,7 +1,7 @@
 ---
 title: Mad River
 date: "2019-10-27"
-tags: [Vermont,ski,lift]
+tags: [vermont,ski,lift]
 thumbnail: ./mad-river.jpg
 description: Salty Skier Designs first original.
 ---

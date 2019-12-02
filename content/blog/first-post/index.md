@@ -1,6 +1,7 @@
 ---
 title: Salty Skier Blog
 date: "2019-11-30"
+tags: [massachusetts,woodworking]
 description: This is just a test blog.
 ---
 

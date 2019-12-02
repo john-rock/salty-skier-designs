@@ -17,9 +17,9 @@ const AboutPage = ({ data }, location) => {
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h3>
+          <p>
           Our designs are based on what makes us feel alive, the majestic mountains and ocean of New England. Here’s to celebrating the heart of East Coast skiing and coastal living!
-          </h3>
+          </p>
           <figure className="kg-card kg-image-card">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
