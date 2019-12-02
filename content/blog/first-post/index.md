@@ -2,9 +2,11 @@
 title: Salty Skier Blog
 date: "2019-11-30"
 tags: [massachusetts,woodworking]
-description: This is just a test blog.
+description: Example blog post that does not contain a thumbnail image.
 ---
 
-This is our first blog and will act as a test. This can be hidden before taking the website live. 
+This is a test blog when a blog is set to have no thumbnail image. This feature does not have to be used and can be removed entirely.
 
-* See the [Wikipedia](https://en.wikipedia.org/wiki/Vaporwave) for more information.
+It might be cool to use for "behind-the-scenes" on projects.
+
+* Check us out on [Instagram](https://www.instagram.com/salty_skier_designs/) for more information.
