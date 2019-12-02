@@ -205,6 +205,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   letter-spacing: 1px;
 }
 
+@media (max-width: 500px) {
+  .site-head-logo{
+    padding:10px 0;
+  }
+}
+
 .site-head-logo:hover {
   text-decoration: none;
 }
@@ -565,10 +571,23 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin: 6rem auto 0;
   padding: 6vw 0;
   background: rgb(115, 10, 10);
-  border-radius: 20px;
-  box-shadow: 0 0 20px #280303;
+  /* border-radius: 20px;
+  box-shadow: 0 0 20px #280303; */
   box-sizing: border-box;
   padding: 20px;
+  position: relative;
+}
+
+.post-content:before{
+  content:'';
+  position: absolute;
+  left:-2000px;
+  top:0;
+  width:4000px;
+  height:100%;
+  background: rgb(115, 10, 10);
+  z-index:-1;
+  box-shadow: 0 0 20px #280303;
 }
 
 .post-content-header {
