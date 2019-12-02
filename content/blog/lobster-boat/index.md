@@ -6,4 +6,6 @@ thumbnail: ./lobster-boat.jpg
 description: Prefer the salty New England air over snow?
 ---
 
-Prefer the salty New England air over snow? Lobster boats are a common sight for any coastal New England town in all seasons. Printed on Maple and Baltic Birch.
+Prefer the salty New England air over snow? Lobster boats are a common sight for any coastal New England town in all seasons.
+
+* Printed on Maple and Baltic Birch.
