@@ -30,7 +30,7 @@ const AboutPage = ({ data }, location) => {
             />
             <figcaption>All designs created in Somerville, Massachusetts</figcaption>
           </figure>
-          <h3 id="dynamic-styles">Who We Are</h3>
+          {/* <h3 id="dynamic-styles">Who We Are</h3>
           <p>
             Use this section to tell a little back story on the company.
           </p>
@@ -51,7 +51,7 @@ const AboutPage = ({ data }, location) => {
           <h3 id="this-is-a-sub-section-1">This is a sub-section</h3>
           <p>
           My best subject in college was skiing. Liftie license to thrill kerma pine mountain gondola off-piste liftie head. Snowfields st moritz eagle point. Whiteface the wall fisher breckenridge soda springs.
-          </p>
+          </p> */}
         </div>
       </article>
     </Layout>
