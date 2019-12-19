@@ -1,0 +1,18 @@
+backend:
+  name: test-repo
+  repo: john-rock/salty-skier-designs
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: blog
+    label: Projects
+    folder: content/blog
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Date, widget: datetime }
+      - { name: description, label: Description }
+      - { name: thumbnail, label: Thumbnail Image, widget: image }
+      - { name: body, label: Body, widget: markdown }
