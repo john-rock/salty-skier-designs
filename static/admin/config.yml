@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: github
   repo: john-rock/salty-skier-designs
 
 media_folder: static/assets
@@ -14,5 +14,5 @@ collections:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
       - { name: description, label: Description }
-      - { name: thumbnail, label: Thumbnail Image, widget: image }
+      - { name: thumbnail, label: Thumbnail Image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
