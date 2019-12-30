@@ -2,7 +2,7 @@
 title: By The Sea
 date: "2019-11-26"
 tags: [massachusetts,boat,lobster]
-thumbnail: ./manchester.jpg
+thumbnail: /manchester.jpg
 description: Manchester-by-the-Sea.
 ---
 

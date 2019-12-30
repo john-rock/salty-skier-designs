@@ -2,7 +2,7 @@
 title: Captain
 date: "2019-11-24"
 tags: [massachusetts,boat,lobster]
-thumbnail: ./captain.jpg
+thumbnail: /captain.jpg
 description: Gloucester, Ma has a serious fishing culture
 ---
 

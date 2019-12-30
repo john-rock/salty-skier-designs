@@ -2,7 +2,7 @@
 title: Rockport
 date: "2019-12-01"
 tags: [massachusetts,rockport]
-thumbnail: ./rockport.jpg
+thumbnail: /rockport.jpg
 description: Thanksgiving in Rockport.
 ---
 

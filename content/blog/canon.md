@@ -2,7 +2,7 @@
 title: Canon Tram
 date: "2019-11-24"
 tags: [new-hampshire,ski,tram]
-thumbnail: ./canon.jpg
+thumbnail: /canon.jpg
 description: Like ‘em steep and fast?
 ---
 

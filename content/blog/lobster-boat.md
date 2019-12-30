@@ -2,7 +2,7 @@
 title: Lobster Boat
 date: "2019-11-24"
 tags: [maine,boat,boston]
-thumbnail: ./lobster-boat.jpg
+thumbnail: /lobster-boat.jpg
 description: Prefer the salty New England air over snow?
 ---
 
