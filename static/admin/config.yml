@@ -17,3 +17,12 @@ collections:
       - { name: description, label: Description }
       - { name: thumbnail, label: Thumbnail Image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
+
+  - label: Pages
+    name: pages
+    files:
+      - label: Home Page
+        name: home
+        file: content/pages/home.md
+        fields:
+          - {label: Title, name: title, widget: string}
