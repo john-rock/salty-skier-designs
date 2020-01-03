@@ -103,15 +103,6 @@ module.exports = {
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      // options: {
-      //   /**
-      //    * One convention is to place your Netlify CMS customization code in a
-      //    * `src/cms` directory.
-      //    */
-      //   modulePath: `${__dirname}/src/templates/blog-post.js`,
-      // },
-    },
+    `gatsby-plugin-netlify-cms`,
   ],
 }
