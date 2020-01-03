@@ -21,8 +21,8 @@ collections:
   - label: Pages
     name: pages
     files:
-      - label: Home Page
+      - label: Home
         name: home
-        file: content/pages/home.md
+        file: content/page_data/home.md
         fields:
           - {label: Title, name: title, widget: string}
