@@ -11,6 +11,7 @@ import "../utils/normalize.css"
 import "../utils/css/screen.css"
 //TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
 const BlogIndex = ({ data }, location) => {
+  const cms = data.allFile.edges[0].node.childMarkdownRemark.frontmatter
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
@@ -25,7 +26,7 @@ const BlogIndex = ({ data }, location) => {
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
-            {data.site.siteMetadata.description}
+            {cms.title}
           </h2>
         </header>
       )}
@@ -48,13 +49,24 @@ const BlogIndex = ({ data }, location) => {
 
 const indexQuery = graphql`
   query {
+    allFile (filter: {sourceInstanceName: {eq: "page_data"} name: {eq: "home"}}) {
+      edges {
+        node {
+          childMarkdownRemark {
+            frontmatter {
+              title
+          }
+        }
+      }
+    }
+  }
     site {
       siteMetadata {
         title
         description
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "\\/blog/"}}, sort: { fields: [frontmatter___date], order: DESC, }) {
       edges {
         node {
           excerpt
